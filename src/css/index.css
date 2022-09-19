@@ -30,8 +30,9 @@ h1.titles--title{
 }
 
 .main--hero{
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
+    
 }
 
 .main--buttons{
@@ -98,4 +99,47 @@ h1.titles--title{
 }
 .footer--list li a{
     color: #536471;
+}
+@media screen and (min-width: 1024px){
+   .helper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 90vh;
+   }
+
+   .main{
+    display: flex;
+    align-items: center;
+   }
+
+   .main--background, .helper--content{
+    width: 50%;
+    height: 100%;
+   }
+
+   .main--button{
+    display: block;
+    width: 300px;
+    margin: 10px 0;
+   }
+
+
+   h1.titles--title{
+    font-size: 5rem;
+   }
+
+   .main--division {
+    max-width: 300px;
+    margin: 0;
+   }
+
+   .main--text{
+    width: 300px;
+   }
+
+   .footer{
+    height: 10vh;
+   }
+
 }
